@@ -76,6 +76,7 @@ export default defineComponent({
 
 .button {
   font-family: 'Montserrat';
+  display: inline-flex;
   width: fit-content;
   margin: 5px;
   border: none;
