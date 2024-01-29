@@ -54,10 +54,6 @@ export default defineComponent({
       }
     });
 
-    const isRouterLink = computed(() => {
-      return props.as === 'router-link';
-    });
-
     const handleClick = (event: Event) => {
       if (!props.disabled) {
         emit('click', event);
